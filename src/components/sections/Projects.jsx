@@ -27,7 +27,7 @@ function Projects() {
 
         <div className="text-center mt-14">
           <a
-            href="#"
+            href="https://project-showcase-gamma-woad.vercel.app/"
             className="inline-block px-8 py-4 rounded-xl bg-linear-to-r from-blue-500 to-violet-600 hover:scale-105 transition"
           >
             View All Projects →
