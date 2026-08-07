@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaArrowUp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaArrowUp, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -15,6 +15,10 @@ function Footer() {
 
           <a href="#">
             <FaLinkedin />
+          </a>
+
+          <a href="#">
+            <FaInstagram />
           </a>
 
           <a

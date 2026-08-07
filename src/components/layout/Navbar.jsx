@@ -39,7 +39,7 @@ function Navbar() {
         <a
           href="/Amit-Anand-Resume.pdf"
           target="_blank"
-          className="hidden md:inline-block bg-gradient-to-r from-blue-500 to-violet-600 px-5 py-3 rounded-xl font-medium hover:scale-105 duration-300"
+          className="hidden md:inline-block bg-linear-to-r from-blue-500 to-violet-600 px-5 py-3 rounded-xl font-medium hover:scale-105 duration-300"
         >
           Resume
         </a>
@@ -69,7 +69,7 @@ function Navbar() {
             <a
               href="/Amit-Anand-Resume.pdf"
               target="_blank"
-              className="bg-gradient-to-r from-blue-500 to-violet-600 px-5 py-3 rounded-xl"
+              className="bg-linear-to-r from-blue-500 to-violet-600 px-5 py-3 rounded-xl"
             >
               Resume
             </a>

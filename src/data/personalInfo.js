@@ -1,11 +1,11 @@
 const personalInfo = {
   name: "Amit Anand",
 
-  email: "yourmail@gmail.com",
+  email: "your-email@gmail.com",
 
   phone: "+91 XXXXX XXXXX",
 
-  location: "India",
+  location: "Bihar, India",
 
   availability: "Open to Work",
 
