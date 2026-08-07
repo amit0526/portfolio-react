@@ -73,10 +73,10 @@ function Hero() {
             </a>
 
             <a
-              href={personalInfo.resume}
+              href="/Amit-Anand-Resume.pdf"
               target="_blank"
-              rel="noreferrer"
-              className="px-8 py-4 rounded-xl border border-slate-700 hover:border-blue-500 flex items-center gap-3 transition"
+              rel="noopener noreferrer"
+              className="hidden md:flex items-center gap-3 px-5 py-3 rounded-xl bg-linear-to-r from-blue-500 to-violet-600 hover:scale-105 transition"
             >
               <FaDownload />
               Resume

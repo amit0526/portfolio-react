@@ -4,6 +4,8 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaGithub,
+  FaAws,
 } from "react-icons/fa";
 
 import {
@@ -12,12 +14,9 @@ import {
   SiExpress,
   SiMongodb,
   SiMysql,
-  SiGithub,
-  SiVisualstudiocode,
   SiNextdotjs,
   SiDocker,
   SiTypescript,
-  SiAmazon,
 } from "react-icons/si";
 
 const skills = [
@@ -63,7 +62,7 @@ const skills = [
       {
         name: "Express",
         icon: SiExpress,
-        color: "text-gray-200",
+        color: "text-white",
       },
       {
         name: "MongoDB",
@@ -88,13 +87,8 @@ const skills = [
       },
       {
         name: "GitHub",
-        icon: SiGithub,
+        icon: FaGithub,
         color: "text-white",
-      },
-      {
-        name: "VS Code",
-        icon: SiVisualstudiocode,
-        color: "text-blue-500",
       },
     ],
   },
@@ -119,7 +113,7 @@ const skills = [
       },
       {
         name: "AWS",
-        icon: SiAmazon,
+        icon: FaAws,
         color: "text-orange-400",
       },
     ],

@@ -8,9 +8,9 @@ const projects = [
 
     tech: ["HTML", "CSS", "JavaScript"],
 
-    github: "",
+    github:"https://github.com/amit0526/java-script-projects/tree/main/10-protfolio",
 
-    live: "",
+    live: "https://amit-anand-dev.vercel.app/",
 
     featured: true,
   },
@@ -26,9 +26,9 @@ const projects = [
 
     tech: ["React", "Tailwind", "Framer Motion"],
 
-    github: "",
+    github: "https://github.com/amit0526/project-showcase.git",
 
-    live: "",
+    live: "https://project-showcase-gamma-woad.vercel.app/",
 
     featured: true,
   },

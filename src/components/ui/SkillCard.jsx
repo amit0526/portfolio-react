@@ -10,7 +10,7 @@ function SkillCard({ skill }) {
         scale: 1.03,
       }}
       transition={{ duration: 0.3 }}
-      className="group rounded-2xl border border-slate-700 bg-slate-800/60 backdrop-blur-xl p-6 border hover:border-blue-500 transition-all duration-300"
+      className="group rounded-2xl border border-slate-700 bg-slate-800/60 backdrop-blur-xl p-6 hover:border-blue-500 transition-all duration-300"
     >
       <div className="flex justify-center mb-5">
         <Icon
