@@ -1,7 +1,10 @@
 function Projects() {
   return (
-    <section>
-      <h1>Hero Section</h1>
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center"
+    >
+      <h1 className="text-5xl font-bold">Projects Section</h1>
     </section>
   );
 }

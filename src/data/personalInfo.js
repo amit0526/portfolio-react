@@ -1,23 +1,19 @@
 const personalInfo = {
   name: "Amit Anand",
-  role: "Frontend Developer",
+  title: "Frontend Developer",
 
   subtitle:
-    "I build modern, responsive and user-friendly web applications with React and JavaScript.",
+    "I build modern, responsive and user-friendly web applications using React, JavaScript and modern web technologies.",
 
-  location: "India",
+  
 
-  email: "your-email@gmail.com",
+  resume: "/resume/Amit-Anand-Resume.pdf",
 
-  phone: "+91 XXXXX XXXXX",
+  github: "#",
 
-  github: "",
+  linkedin: "#",
 
-  linkedin: "",
-
-  instagram: "",
-
-  resume: "/Amit-Anand-Resume.pdf",
+  email: "#",
 };
 
 export default personalInfo;
