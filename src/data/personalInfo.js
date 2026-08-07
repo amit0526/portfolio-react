@@ -1,7 +1,7 @@
 const personalInfo = {
   name: "Amit Anand",
 
-  email: "your-email@gmail.com",
+  email: "amit.anand031020@gmail.com",
 
   phone: "+91 XXXXX XXXXX",
 
@@ -11,11 +11,11 @@ const personalInfo = {
 
   response: "Within 24 Hours",
 
-  github: "https://github.com/yourusername",
+  github: "https://github.com/amit0526",
 
-  linkedin: "https://linkedin.com/in/yourusername",
+  linkedin: "https://linkedin.com/in/amit-anand23",
 
-  instagram: "https://instagram.com/yourusername",
+  instagram: "https://instagram.com/realamitanand",
 };
 
 export default personalInfo;
