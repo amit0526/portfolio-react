@@ -9,15 +9,15 @@ function Footer() {
         </p>
 
         <div className="flex gap-5 text-2xl">
-          <a href="#">
+          <a href="https://github.com/amit0526">
             <FaGithub />
           </a>
 
-          <a href="#">
+          <a href="https://linkedin.com/in/amit-anand23">
             <FaLinkedin />
           </a>
 
-          <a href="#">
+          <a href="https://instagram.com/realamitanand">
             <FaInstagram />
           </a>
 
