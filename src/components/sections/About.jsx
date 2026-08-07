@@ -96,17 +96,17 @@ function About() {
                 </div>
               ))}
             </div>
-            <div className="grid grid-cols-3 gap-5 mt-10">
+            <div className="grid grid-cols-2 md:grid-cols-3  gap-5 mt-10">
               {[
                 ["15+", "Projects"],
                 ["100%", "Dedication"],
-                ["Open", "To Work"],
+                ["Open", "For Work"],
               ].map(([v, l]) => (
                 <div
                   key={l}
                   className="rounded-2xl border border-slate-700 bg-slate-800/50 p-5 text-center"
                 >
-                  <h3 className="text-3xl font-bold text-blue-500">{v}</h3>
+                  <h3 className="text-3xl font-bold text-blue-500 whitespace-nowrap">{v}</h3>
                   <p className="mt-2 text-sm text-slate-400">{l}</p>
                 </div>
               ))}
