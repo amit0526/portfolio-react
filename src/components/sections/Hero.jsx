@@ -10,7 +10,7 @@ import {
   FaDownload,
 } from "react-icons/fa";
 
-import profile from "../../assets/images/profile.png";
+import profile from "../../assets/images/profile.jpeg";
 import personalInfo from "../../data/personalInfo";
 
 function Hero() {
