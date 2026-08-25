@@ -17,6 +17,9 @@ import {
   SiNextdotjs,
   SiDocker,
   SiTypescript,
+  SiPostgresql,
+  SiVercel,
+  SiRender,
 } from "react-icons/si";
 
 const skills = [
@@ -74,6 +77,11 @@ const skills = [
         icon: SiMysql,
         color: "text-blue-500",
       },
+      {
+        name: "Postgresql",
+        icon: SiPostgresql,
+        color: "text-blue-500 p-1",
+      },
     ],
   },
 
@@ -89,6 +97,17 @@ const skills = [
         name: "GitHub",
         icon: FaGithub,
         color: "text-white",
+      },
+      {
+        name: "Vercel",
+        icon: SiVercel,
+        color: "bg-black text-white p-3",
+    
+      },
+      {
+        name: "Render",
+        icon: SiRender,
+        color: "bg-white text-black p-2",
       },
     ],
   },

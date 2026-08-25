@@ -40,7 +40,7 @@ const projects = [
 
     description: "Currently under development.",
 
-    image: "/projects/coming-soon.jpg",
+    image: "/projects/tech-flow-dashboard.png",
 
     tech: ["Node", "Express", "MongoDB"],
 
