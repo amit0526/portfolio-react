@@ -1,16 +1,16 @@
 const projects = [
   {
     id: 1,
-    title: "JavaScript Portfolio",
-    description: "A responsive portfolio built using HTML, CSS and JavaScript.",
+    title: "Snake Game",
+    description: "A responsive classic Snake Game built with HTML, CSS, and JavaScript featuring dynamic snake growth, food generation, collision detection, real-time scoring, a game timer, and persistent high scores.",
 
-    image: "/projects/js-portfolio.png",
+    image: "/projects/snake-game.png",
 
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["HTML", "CSS", "JavaScript", "LocalStorage"],
 
-    github:"https://github.com/amit0526/java-script-projects/tree/main/10-protfolio",
+    github:"https://github.com/amit0526/java-script-projects/tree/main/13-snake-game",
 
-    live: "https://amit-anand-dev.vercel.app/",
+    live: "https://snake-game-weld-eight.vercel.app",
 
     featured: true,
   },
