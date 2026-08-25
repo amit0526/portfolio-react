@@ -50,7 +50,7 @@ function Navbar() {
               Amit <span className="text-blue-400">Anand</span>
             </h1>
 
-            <p className="text-xs text-slate-400">Frontend Developer</p>
+            <p className="text-xs text-slate-400">MERN Stack Developer</p>
           </div>
         </motion.a>
 
