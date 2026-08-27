@@ -123,17 +123,21 @@ function Navbar() {
               ))}
 
               {/* Mobile Resume */}
+              {/* Mobile Resume */}
               <li>
-                <a
-                  href="/Amit-Anand-resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setMenu(false)}
+                <button
+                  onClick={() => {
+                    window.open(
+                      "https://amitanand-portfolio-orcin.vercel.app/Amit-Anand-resume.pdf",
+                      "_blank",
+                    );
+                    setMenu(false);
+                  }}
                   className="flex items-center gap-3 text-xl text-blue-400 hover:text-blue-300 transition"
                 >
                   <FaDownload />
                   Resume
-                </a>
+                </button>
               </li>
             </ul>
           </motion.div>
