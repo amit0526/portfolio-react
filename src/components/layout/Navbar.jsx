@@ -54,8 +54,7 @@ function Navbar() {
           </div>
         </motion.a>
 
-        {/* Desktop */}
-
+        {/* Desktop Navigation */}
         <ul className="hidden md:flex gap-10">
           {navLinks.map((item) => (
             <li key={item.id}>
@@ -74,27 +73,24 @@ function Navbar() {
           ))}
         </ul>
 
-        {/* Resume */}
-
+        {/* Desktop Resume */}
         <a
           href="/Amit-Anand-resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 px-5 py-3 rounded-xl bg-linear-to-r from-blue-500 to-violet-600 hover:scale-105 transition"
+          className="hidden md:flex items-center gap-3 px-5 py-3 rounded-xl bg-linear-to-r from-blue-500 to-violet-600 hover:scale-105 transition"
         >
           <FaDownload />
           Resume
         </a>
 
-        {/* Mobile */}
-
+        {/* Mobile Menu Button */}
         <button onClick={() => setMenu(true)} className="text-3xl md:hidden">
           <HiOutlineMenuAlt3 />
         </button>
       </nav>
 
       {/* Mobile Menu */}
-
       <AnimatePresence>
         {menu && (
           <motion.div
@@ -104,10 +100,12 @@ function Navbar() {
             transition={{ duration: 0.35 }}
             className="fixed top-0 right-0 h-screen w-72 bg-slate-900 border-l border-slate-800 p-8"
           >
+            {/* Close Button */}
             <button onClick={() => setMenu(false)} className="text-3xl mb-10">
               <HiX />
             </button>
 
+            {/* Mobile Navigation */}
             <ul className="space-y-8">
               {navLinks.map((item) => (
                 <li key={item.id}>
@@ -117,12 +115,26 @@ function Navbar() {
                     duration={500}
                     offset={-70}
                     onClick={() => setMenu(false)}
-                    className="text-xl cursor-pointer"
+                    className="text-xl cursor-pointer hover:text-blue-400 transition"
                   >
                     {item.label}
                   </Link>
                 </li>
               ))}
+
+              {/* Mobile Resume */}
+              <li>
+                <a
+                  href="/Amit-Anand-resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMenu(false)}
+                  className="flex items-center gap-3 text-xl text-blue-400 hover:text-blue-300 transition"
+                >
+                  <FaDownload />
+                  Resume
+                </a>
+              </li>
             </ul>
           </motion.div>
         )}
