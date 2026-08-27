@@ -80,7 +80,7 @@ function Navbar() {
           href="/Amit-Anand-resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:flex items-center gap-3 px-5 py-3 rounded-xl bg-linear-to-r from-blue-500 to-violet-600 hover:scale-105 transition"
+          className="flex items-center gap-3 px-5 py-3 rounded-xl bg-linear-to-r from-blue-500 to-violet-600 hover:scale-105 transition"
         >
           <FaDownload />
           Resume
