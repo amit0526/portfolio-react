@@ -75,7 +75,7 @@ function Navbar() {
 
         {/* Desktop Resume */}
         <a
-          href="/Amit-Anand-resume.pdf"
+          href="/Amit-Anand-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-3 px-5 py-3 rounded-xl bg-linear-to-r from-blue-500 to-violet-600 hover:scale-105 transition"
@@ -128,7 +128,7 @@ function Navbar() {
                 <button
                   onClick={() => {
                     window.open(
-                      "https://amitanand-portfolio-orcin.vercel.app/Amit-Anand-resume.pdf",
+                      "https://amitanand-portfolio-orcin.vercel.app/Amit-Anand-Resume.pdf",
                       "_blank",
                     );
                     setMenu(false);
